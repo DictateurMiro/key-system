@@ -4,7 +4,7 @@ Dans ce repo qui sera un tuto vous allez voir comment fonctionne un système de 
 
 Donc dans un premier temps vous allez devoir prendre un serveur VPS, linux ou windows, vous allez ensuite ouvrir le port 8080 (c'est pour ça que c'est mieux d'avoir un vps)
 
-Ensuite vous allez en tant qu'utilisateur lancé le fichier "get_mac_sha256.py" le programme va vous donner une suite de caractères qui est votre adresse MAC hashé sous sha256
+Ensuite vous allez en tant qu'utilisateur lancé le fichier "<a href="https://github.com/DictateurMiro/key-system/blob/main/client/get_mac_sha256.py">get_mac_sha256.py</a>" le programme va vous donner une suite de caractères qui est votre adresse MAC hashé sous sha256
 
 Maintenant que l'utilisateur possede cette chaine vous en tant qu'administrateur vous allez récupérer cette clé et vous allez l'ajouté dans le serveur via le fichier "add_key.py"
 Celui ci vous demanderas la chaine de caractère, vous allez la rentré et le programme va sauvegardé la chaine de caractère et vous donner une clé en même temps
