@@ -6,10 +6,10 @@ Donc dans un premier temps vous allez devoir prendre un serveur VPS, linux ou wi
 
 Ensuite vous allez en tant qu'utilisateur lancé le fichier "<a href="https://github.com/DictateurMiro/key-system/blob/main/client/get_mac_sha256.py">get_mac_sha256.py</a>" le programme va vous donner une suite de caractères qui est votre adresse MAC hashé sous sha256
 
-Maintenant que l'utilisateur possede cette chaine vous en tant qu'administrateur vous allez récupérer cette clé et vous allez l'ajouté dans le serveur via le fichier "add_key.py"
+Maintenant que l'utilisateur possede cette chaine vous en tant qu'administrateur vous allez récupérer cette clé et vous allez l'ajouté dans le serveur via le fichier "<a href="https://github.com/DictateurMiro/key-system/blob/main/server/add_key.py">add_key.py</a>"
 Celui ci vous demanderas la chaine de caractère, vous allez la rentré et le programme va sauvegardé la chaine de caractère et vous donner une clé en même temps
 
-Cette clé vous allez la donnés à l'utilsateur et il faudra qu'il la mette dans le fichier "config.ini" à la ligne "key"
+Cette clé vous allez la donnés à l'utilsateur et il faudra qu'il la mette dans le fichier "<a href="https://github.com/DictateurMiro/key-system/blob/main/client/config.ini">config.ini</a>" à la ligne "key"
 Une fois la clé rentré l'utilisateur devra lancer le programme et celui-ci marcheras si la clé est valide ainsi que l'adresse ma hashé
 
 ### Explication
